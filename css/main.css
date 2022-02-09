@@ -1,0 +1,108 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background: #E9E4FA;
+}
+.container
+{
+    max-width: 1300px;
+    padding: 0px 20px;
+    margin: 0 auto;
+}
+.list
+{
+    width: 300px;
+    padding: 2rem;
+    background: #ccc;
+    border-radius: 0.3rem;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.city-form
+{
+   text-align: center;
+   margin-top: 20px;
+   position: relative;
+}
+.search-input
+{
+    width: 300px;
+    padding: 0.7em;
+    background: #069af657;
+    border: 1px solid #000;
+    border-radius: 0.3rem;
+    color: #000;
+    letter-spacing: 3px;
+}
+.search
+{
+    padding: 0.6rem;
+    border: none;
+    background: #34344d;
+    color: #fff;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.search:hover
+{
+    background: #34344d93;
+    transition: 0.2s;
+}
+.search:active
+{
+    background: #34344d;
+    transition: 0.2s;
+}
+
+.province
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 700px;
+    margin: 0 auto;
+}
+.btn-province
+{
+    width: 200px;
+    padding: 0.5rem;
+    margin: 5px;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+.btn-province:nth-child(odd)
+{
+    background: #AD9EE9;
+}
+.btn-province:nth-child(even)
+{
+    background: #7764B7;
+}
+.btn-province:nth-child(odd):hover
+{
+    background: #7764B7;
+}
+.btn-province:nth-child(even):hover
+{
+    background: #AD9EE9;
+}
+.btn-province:nth-child(odd):active
+{
+    background: #7764b788;
+}
+.btn-province:nth-child(even):active
+{
+    background: #ad9ee9ab;
+}
